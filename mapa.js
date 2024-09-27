@@ -48,21 +48,21 @@ let TO = {
 Mensagem dos marcadores de Mato Grosso do Sul.
 */
 
-MS.CampoGrande.bindPopup("<b>Hello world!</b><br>I am a popup.");
-MS.Aquidauana.bindPopup("<b>Hello world!</b><br>I am a popup.");
-MS.TresLagoas.bindPopup("<b>Hello world!</b><br>I am a popup.");
-MS.Dourados.bindPopup("<b>Hello world!</b><br>I am a popup.");
-MS.Corumba.bindPopup("<b>Hello world!</b><br>I am a popup.");
+MS.CampoGrande.bindPopup("<img src='./img/MS/CampoGrande.png' class='bandeiras'>");
+MS.Aquidauana.bindPopup("<img src='./img/MS/Aquidauana.png' class='bandeiras'>");
+MS.TresLagoas.bindPopup("<img src='./img/MS/TresLagoas.png' class='bandeiras'>");
+MS.Dourados.bindPopup("<img src='./img/MS/Dourados.png' class='bandeiras'>");
+MS.Corumba.bindPopup("<img src='./img/MS/Corumba.png' class='bandeiras'>");
 
 /*
 Mensagem dos marcadores de Tocantins.
 */
 
-TO.Arraias.bindPopup("<b>Hello world!</b><br>I am a popup.");
-TO.Palmas.bindPopup("<b>Hello world!</b><br>I am a popup.");
-TO.Gurupi.bindPopup("<b>Hello world!</b><br>I am a popup.");
-TO.Angico.bindPopup("<b>Hello world!</b><br>I am a popup.");
-TO.Almas.bindPopup("<b>Hello world!</b><br>I am a popup.");
+TO.Arraias.bindPopup("<img src='./img/TO/Arraias.png' class='bandeiras'>");
+TO.Palmas.bindPopup("<img src='./img/TO/Palmas.png' class='bandeiras'>");
+TO.Gurupi.bindPopup("<img src='./img/TO/Gurupi.png' class='bandeiras'>");
+TO.Angico.bindPopup("<img src='./img/TO/Angico.png' class='bandeiras'>");
+TO.Almas.bindPopup("<img src='./img/TO/Almas.png' class='bandeiras'>");
 
 
 let popup = L.popup();
