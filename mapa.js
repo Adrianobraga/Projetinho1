@@ -18,6 +18,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     Corumbá
     
 */
+
 let MS = {
 
     CampoGrande: L.marker([-20.463218, -54.613142]).addTo(map),
@@ -27,6 +28,7 @@ let MS = {
     Corumba: L.marker([-19.020969, -57.648295]).addTo(map),
    
 }
+
 /*
     Marcadores das cidades Tocantins:
     Arraias,
@@ -35,6 +37,7 @@ let MS = {
     Angico,
     Corumbá,
 */
+
 let TO = {
     
     Arraias: L.marker([-12.816049, -47.006613]).addTo(map),
@@ -44,6 +47,7 @@ let TO = {
     Almas: L.marker([-11.441228, -47.224737]).addTo(map),
 
 }
+
 /*
 Mensagem dos marcadores de Mato Grosso do Sul.
 */
@@ -70,7 +74,7 @@ let popup = L.popup();
 function onMapClick(e) {
     popup
         .setLatLng(e.latlng)
-        .setContent("You clicked the map at " + e.latlng.toString())
+        .setContent(`informações sobre a Latitude e Longitude: ${e.latlng.toString()}`)
         .openOn(map);
 }
 
