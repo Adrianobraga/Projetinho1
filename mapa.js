@@ -48,8 +48,8 @@ let TO = {
 Mensagem dos marcadores de Mato Grosso do Sul.
 */
 
-MS.CampoGrande.bindPopup("<b>Hello world!</b><br>I am a popup.");
-MS.Aquidauana.bindPopup("<b>Hello world!</b><br>I am a popup.");
+MS.CampoGrande.bindPopup("<img src='./img/CampoGrande.jpeg'>");
+MS.Aquidauana.bindPopup("<img src='./img/Aquidauana.jpeg'>"); 
 MS.TresLagoas.bindPopup("<b>Hello world!</b><br>I am a popup.");
 MS.Dourados.bindPopup("<b>Hello world!</b><br>I am a popup.");
 MS.Corumba.bindPopup("<b>Hello world!</b><br>I am a popup.");
