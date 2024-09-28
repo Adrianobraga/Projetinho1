@@ -42,7 +42,7 @@ let MS = {
 */
 
 let TO = {
-    
+
     Arraias: L.marker([-12.816049, -47.006613]).addTo(map),
     Palmas: L.marker([-10.249229, -48.324272]).addTo(map),
     Gurupi: L.marker([-11.733522, -49.079023]).addTo(map),
