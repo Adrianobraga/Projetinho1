@@ -4,12 +4,11 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 //Feito 
-for (let i = 0; i < marcadores.length; i++) {
-    var marker = L.marker([marcadores[i].latitude, marcadores[i].longitude]).addTo(map);
+marcadores.forEach((pontos) => {
+    let marker = L.marker([pontos.latitude, pontos.longitude]).addTo(map);
     let popup = L.popup();
-    marker.bindPopup(`<img src="${marcadores[i].imagem}"><p>${marcadores[i].descricao}</p><p>${marcadores[i].area}</p><p>${marcadores[i].LatitudeeLongitude}</p><p>${marcadores[i].Habitantes}</p><p>${marcadores[i].estado}</p><a href='${marcadores[i].prefeitura}'>Prefeitura local</a>`);
-
-}
+    marker.bindPopup(`<img src="${pontos.imagem}"><p>${pontos.descricao}</p><p>${pontos.area}</p><p>${pontos.LatitudeeLongitude}</p><p>${pontos.Habitantes}</p><p>${pontos.estado}</p><a href='${pontos.prefeitura}'>Prefeitura local</a>`); 
+});
 function onMapClick(e) {
     popup
         .setLatLng(e.latlng)
