@@ -51,13 +51,6 @@ let TO = {
 
 }
 
-
-MS.CampoGrande.bindPopup("<img src='./img/CampoGrande.jpeg'>");
-MS.Aquidauana.bindPopup("<img src='./img/Aquidauana.jpeg'>"); 
-MS.TresLagoas.bindPopup("<b>Hello world!</b><br>I am a popup.");
-MS.Dourados.bindPopup("<b>Hello world!</b><br>I am a popup.");
-MS.Corumba.bindPopup("<b>Hello world!</b><br>I am a popup.");
-
 //Mensagem dos marcadores de Mato Grosso do Sul.
 
 MS.CampoGrande.bindPopup(`<img src='${imagem.CampoGrande}' class='bandeiras'><h1>${titulo.CampoGrande}</h1><p>${Descricao.CampoGrande}</p> <p>${area.CampoGrande}</p> <p>${LatitudeeLongitude.CampoGrande}</p> <p>${Habitantes.CampoGrande}</p> <p>${estado.CampoGrande}</p> <a href='${prefeitura.CampoGrande}'>Site da prefeitura local</a>`);
