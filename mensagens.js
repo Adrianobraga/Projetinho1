@@ -1,5 +1,19 @@
 
 const Descricao = [
+    
+imagem = {
+        CampoGrande:'./img/MS/CampoGrande.png', 
+        TresLagoas:`./img/MS/TresLagoas.png`,
+        Aquidauana:`./img/MS/Aquidauana.png`,
+        Dourados:`./img/MS/Dourados.png`,
+        Corumba:`./img/MS/Corumba.png`,
+        Arraias:`./img/TO/Arraias.png`,
+        Palmas:`./img/TO/Palmas.png`,
+        Gurupi:`./img/TO/Gurupi.png`,
+        Angico:`./img/TO/Angico.png`,
+        Almas:`./img/TO/Almas.png`,
+    
+},
 mensagem = {   
     CampoGrande :`Campo Grande é a capital do estado de Mato Grosso do Sul, 
     na Região Centro-Oeste do Brasil. Possui clima tropical,
@@ -50,19 +64,7 @@ mensagem = {
     de Saneamento Básico e possui Plano Municipal de Saneamento Básico.`,
     
 },
-imagem = {
-    CampoGrande:'./img/MS/CampoGrande.png', 
-    TresLagoas:`./img/MS/TresLagoas.png`,
-    Aquidauana:`./img/MS/Aquidauana.png`,
-    Dourados:`./img/MS/Dourados.png`,
-    Corumba:`./img/MS/Corumba.png`,
-    Arraias:`./img/TO/Arraias.png`,
-    Palmas:`./img/TO/Palmas.png`,
-    Gurupi:`./img/TO/Gurupi.png`,
-    Angico:`./img/TO/Angico.png`,
-    Almas:`./img/TO/Almas.png`,
 
-},
 titulo = {
     CampoGrande:'Campo Grande', 
     TresLagoas:`Três Lagoas`,
