@@ -1,6 +1,6 @@
 
-export const Descricao = {
-    
+const Descricao = [
+mensagem = {   
     CampoGrande :`Campo Grande é a capital do estado de Mato Grosso do Sul, 
     na Região Centro-Oeste do Brasil. Possui clima tropical,
     com verões quentes e chuvosos e inverno seco.
@@ -49,8 +49,8 @@ export const Descricao = {
     de Almas é 0,64. O município não possui Política Municipal
     de Saneamento Básico e possui Plano Municipal de Saneamento Básico.`,
     
-}
-export const imagem = {
+},
+imagem = {
     CampoGrande:'./img/MS/CampoGrande.png', 
     TresLagoas:`./img/MS/TresLagoas.png`,
     Aquidauana:`./img/MS/Aquidauana.png`,
@@ -62,8 +62,8 @@ export const imagem = {
     Angico:`./img/TO/Angico.png`,
     Almas:`./img/TO/Almas.png`,
 
-}
-export const titulo = {
+},
+titulo = {
     CampoGrande:'Campo Grande', 
     TresLagoas:`Três Lagoas`,
     Aquidauana:`Aquidauana`,
@@ -74,8 +74,8 @@ export const titulo = {
     Gurupi:`Gurupi`,
     Angico:`Angico`,
     Almas:`Almas`,
-}
-export const area = {
+},
+area = {
     CampoGrande:'Área total:8.096 km²', 
     TresLagoas:`Área total:10.206,370 km²`,
     Aquidauana:`Área total:17.008,5 Km²`,
@@ -86,8 +86,8 @@ export const area = {
     Gurupi:`Área total:1.847 km²`,
     Angico:`Área total:	438,703 km²`,
     Almas:`Área total: 4.106,4 km².`,
-}
-export const LatitudeeLongitude = {
+},
+LatitudeeLongitude = {
     CampoGrande:'Latitude e Longitude:-20.463218, -54.613142', 
     TresLagoas:`Latitude e Longitude:-20.788476, -51.703229`,
     Aquidauana:`Latitude e Longitude:-20.463001, -55.779558`,
@@ -98,8 +98,8 @@ export const LatitudeeLongitude = {
     Gurupi:`Latitude e Longitude:-11.733522, -49.079023`,
     Angico:`Latitude e Longitude:-6.391276, -47.865895`,
     Almas:`Latitude e Longitude:-11.441228, -47.224737`,
-}
-export const Habitantes = {
+},
+Habitantes = {
     CampoGrande:'Quantidade de Habitantes:954.537', 
     TresLagoas:`Quantidade de Habitantes:141.435`,
     Aquidauana:`Quantidade de Habitantes:47 871`,
@@ -110,8 +110,8 @@ export const Habitantes = {
     Gurupi:`Quantidade de Habitantes:89 554`,
     Angico:`Quantidade de Habitantes:3.454`,
     Almas:`Quantidade de Habitantes:6.979`,
-}
-export const estado = {
+},
+estado = {
     CampoGrande:'Estado:Mato Grosso do Sul', 
     TresLagoas:`Estado:Mato Grosso do Sul`,
     Aquidauana:`Estado:Mato Grosso do Sul`,
@@ -122,8 +122,8 @@ export const estado = {
     Gurupi:`Estado:Tocantins`,
     Angico:`Estado:Tocantins`,
     Almas:`Estado:Tocantins`,
-}
-export const prefeitura = {
+},
+prefeitura = {
     CampoGrande:'https://www.campogrande.ms.gov.br/', 
     TresLagoas:`https://www.treslagoas.ms.gov.br/`,
     Aquidauana:`https://www.aquidauana.ms.gov.br/`,
@@ -135,3 +135,4 @@ export const prefeitura = {
     Angico:`https://www.angico.to.gov.br/`,
     Almas:`https://www.almas.to.gov.br/`,
 }
+]
