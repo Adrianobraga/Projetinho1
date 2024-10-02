@@ -1,5 +1,4 @@
 //importação das descricões das cidades
-import {Descricao,imagem,titulo,LatitudeeLongitude,Habitantes,estado,prefeitura,area} from "./mensagens.js";
 
 //Latitude e Longitude centralizado no Brasil
 let map = L.map('map').setView([-12.897489, -49.746094], 5);
