@@ -4,7 +4,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 //Feito 
-marcadores.forEach((pontos) => {
+marcadores.map((pontos) => {
     let marker = L.marker([pontos.latitude, pontos.longitude]).addTo(map);
     let popup = L.popup();
     marker.bindPopup(`<img src="${pontos.imagem}"><p>${pontos.descricao}</p><p>${pontos.area}</p><p>${pontos.LatitudeeLongitude}</p><p>${pontos.Habitantes}</p><p>${pontos.estado}</p><a href='${pontos.prefeitura}'>Prefeitura local</a>`); 
